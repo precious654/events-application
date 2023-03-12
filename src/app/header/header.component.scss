@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4rem 0;
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    ul{
+        display: flex;
+        gap: 3rem;
+        list-style-type: none;
+
+        li{
+            font-size: 0.7rem;
+            font-weight: bold;
+            color: #e2e2e2;
+
+            &:hover{
+                color: #333333;
+            }
+        }
+    }
+}

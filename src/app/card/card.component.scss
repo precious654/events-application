@@ -1,0 +1,19 @@
+.card{
+    display: flex;
+    gap: 3rem;
+
+    div{
+        margin-block-start: 3rem;
+
+        p{
+            color: darkgrey;
+            margin-block-start: 1rem;
+            font-weight: bold;
+        }
+    }
+
+    .image{
+        inline-size: 30%;
+        border-radius: 0.5rem;
+    }
+}
